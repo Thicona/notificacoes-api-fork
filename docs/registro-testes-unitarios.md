@@ -4,12 +4,14 @@ Grupo: 01
 Data: 24/09/2026
 
 ## Testes escritos
-| #   | Arquivo | O que o teste verifica | Tipo                    |
-| --- | ------- | ---------------------- | ----------------------- |
-| 1 | |ambient.test.js|o teste verifica se o ambiente está certo| sucesso ✅|
-| 2 | |parseId.test.js|o teste verifica se o Id digitado só contém números, e se ele aceita letras misturada com número. | Falha ❌ |
-| 3 | |validators.test.js/isEmail | o teste verifica se o email contém @ nele| sucesso ✅|
-| 4 | |validators.test.js/minLength| o teste verifica se o nome contém mais de 3 letras| sucesso ✅|
+
+| # | Arquivo | O que o teste verifica | Tipo |
+| :-: | :--- | :--- | :-: |
+| 1 | `ambient.test.js` | Verifica se o ambiente de testes está configurado corretamente | Sucesso ✅ |
+| 2 | `parseId.test.js` | Verifica se o ID contém apenas números e rejeita IDs com letras misturadas (ex: "12abc") | Falha ❌ |
+| 3 | `validators.test.js/isEmail` | Verifica se o e-mail possui uma estrutura válida contendo o caractere "@" | Sucesso ✅ |
+| 4 | `validators.test.js/minLength` | Verifica se o texto possui o tamanho mínimo de caracteres exigido | Sucesso ✅ |
+
 
 ## Resultado
 Passaram: 3
